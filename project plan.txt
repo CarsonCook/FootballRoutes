@@ -1,0 +1,16 @@
+Synthesize Football Offensive Play Diagrams
+1. Get example tracking programs working for soccer videos (DONE)
+2. Apply same tracking program to cut videos of football plays
+    - track offensive players based on jersey colour
+    - track the football (may not be possible on every play)
+3. Use coordinates from one player being tracked to draw lines showing their path on the play
+    -save image of the lines
+4. Programmatically do step 3 for all players on the play
+5. Be able to detect when a play is about to start
+    -Begin tracking when OL gets lined up on LOS
+    -Keep tracking data if QB drops back or receives shotgun snap, otherwise eliminate that data
+6. Analyze video of mutliple plays, split so that there is no footage between plays
+    -Create play diagram of each play, saved separately
+7. Detect the All-22 view angle
+    -Only track plays when it's the proper angle, and not the endzone view
+7. Analyze full video
